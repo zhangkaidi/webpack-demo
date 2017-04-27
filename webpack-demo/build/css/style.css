@@ -1,0 +1,26 @@
+/*! This file is created by zhangkaidi */
+/*! This file is created by zhangkaidi */
+/*! This file is created by zhangkaidi */
+/*! This file is created by zhangkaidi */
+body {
+  font-size: 24px;
+  font-family: 微软雅黑;
+  font-weight: bolder;
+  text-align: center;
+  background: url(/img/imgcafdeac1.jpg) no-repeat;
+}
+body .bar {
+  padding: 20px 0;
+  font-size: 56px;
+  color: red;
+}
+header {
+  text-align: center;
+  font-size: 40px;
+  color: purple;
+}
+footer {
+  text-align: center;
+  font-size: 40px;
+  color: blue;
+}
