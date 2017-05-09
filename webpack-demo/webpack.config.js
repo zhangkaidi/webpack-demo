@@ -1,3 +1,4 @@
+/// <binding ProjectOpened='Watch - Development' />
 const webpack = require('webpack');
 const path = require('path');
 const htmlwebpackplugin = require('html-webpack-plugin');
@@ -5,14 +6,14 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const config = {
 	entry:{
-		index:'./app/js/index.js',
-		header:'./app/js/header.js',
-		footer:'./app/js/footer.js',
-		global:['./app/js/header.js','./app/js/index.js','./app/js/footer.js']
+		index:'./src/js/index.js',
+		header: './src/js/header.js',
+		footer: './src/js/footer.js',
+		global: ['./src/js/header.js', './src/js/index.js', './src/js/footer.js']
 	},
 	output:{
 		//用来存放打包后文件的输出目录 
-		path:path.resolve(__dirname,'build'),
+	    path: path.resolve(__dirname, 'dist'),
 		//指定资源文件引用的目录 
 		publicPath:'/',
 		filename:'js/[name].bundle.js'
